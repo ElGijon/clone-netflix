@@ -1,0 +1,77 @@
+
+.mainFooter {
+	background-color: #324C64;
+	padding-top: 20px;
+}
+
+.mainFooter .subtitle {
+	color: #FFF;
+}
+
+.mainFooter-sponsors {
+	margin-top: 30px;
+	background: #F2F5F7;
+	padding: 20px 0;
+}
+
+
+.mainFooter-sponsors .container{
+	display: flex;
+	justify-content: space-around;
+}
+
+.mainFooter-sponsors-list {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 70%;
+	margin-right: 5%;
+}
+
+.amazonLogo{
+	margin-top: 10px;
+	margin-left: 80px;
+	width: 40%;
+	height: 40%;
+}
+
+.googleLogo{
+	width: 75%;
+	height: 75%;
+}
+
+.mainHeader .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mainHeader-nav {
+    display: flex;
+}
+
+.mainFooter-sponsors .container{
+	display: flex;
+	justify-content: space-around;
+}
+
+.mainFooter-sponsors-list {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-right: 15%;
+  margin-left: 15%;
+}
+
+
+.teslaLogo{
+	margin-top: 10px;
+	margin-left: 70px;
+	width: 20%;
+	height: 20%;
+}
+
+.googleLogo{
+	width: 95%;
+	height: 95%;
+}

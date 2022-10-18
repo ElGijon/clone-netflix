@@ -1,0 +1,33 @@
+@media screen and (max-width:700px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .botao{
+        margin-top: 5px;
+        width: 200px;
+    }
+}
+
+@media screen and (min-width:1000px){
+    .descricao{
+        width: 50%;
+    }
+
+    @media screen and (min-widht: 768px) {
+        .cartao {
+
+        }
+    }
+
+    @media screen and (min-width:1024px) {
+
+        .planos__cartoes {
+            width: 35%;
+            padding: 6em 0;
+
+        }
+
+
+}

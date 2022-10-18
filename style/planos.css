@@ -1,0 +1,173 @@
+.planos {
+
+  background-color: var(--azulRosa);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+
+
+}
+
+.container{
+
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-block: 20px;
+
+}
+
+#botao{ text-align: center }
+.botaoEnviar{
+
+  background-color: var(--azulLilas);
+  opacity: 70%;
+  cursor: pointer;
+  width: 100px;
+  height: 50px;
+  color: var(--azul);
+  border-radius: 20px;
+  border-style: none;
+  font-weight: 700;
+  font-size: 1.5rem;
+  font-family: Arial;
+  text-transform: uppercase;
+  text-align: center;
+
+  margin-bottom: 1.25rem;
+}
+
+.botaoEnviar:hover {
+  opacity: 100%;
+  background-color: var(--azulCinza);
+  width: 105px;
+  height: 55px;
+  border-radius: 25px;
+  transition: .2s ease all;
+}
+
+
+.planos__cartoes {
+
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cartao {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: var(--azulDois);
+    opacity: 70%;
+
+    width: 100%;
+    max-width: 300px;
+
+    margin-bottom: 2rem;
+
+    border-radius: 10px;
+    box-shadow: 0 2px 10px 2px #00000010;
+
+    line-height: 25px;
+    font-weight: 600
+}
+
+.cartao__titulo {
+    font-weight: 700;
+    font-size: 1.75rem;
+    text-align: center;
+
+    padding: 1rem 0;
+
+    margin-bottom: 1.5rem;
+
+    border-bottom: 2px solid var(--azul);
+}
+
+.cartao__conteudo {
+    padding: 0 15%;
+}
+
+.cartao__preco {
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+
+    margin-top: .75rem;
+    margin-bottom: .75rem;
+}
+
+.cartao__texto .cartao {
+    color: white;
+    opacity: 75%;
+    line-height: 25px;
+    font-weight: 600;
+}
+
+.cartao__texto:hover {
+    color: var(--azul);
+    opacity: 90%;
+    line-height: 25px;
+    font-weight: 600;
+}
+
+.cartao--start {
+    color: white;
+    height: 320px;
+}
+
+.cartao--start:hover {
+  height: 325px;
+  top:-2px;
+  box-shadow: 0 10px 10px #444;
+  transition: .3s ease all;
+  background-color: var(--azulLilas);
+  color: var(--azul);
+  opacity: 75%;
+}
+
+
+.cartao--ultra {
+    color: white;
+    height: 340px;
+}
+
+.cartao--ultra:hover {
+  height: 350px;
+  top:-2px;
+  box-shadow: 0 10px 10px #444;
+  transition: .3s ease all;
+  background-color: var(--azulLilas);
+  color: var(--azul);
+  opacity: 75%;
+}
+
+.cartao--mega {
+    color: white;
+    height: 320px;
+}
+
+.cartao--mega:hover {
+  height: 325px;
+  top:-2px;
+  box-shadow: 0 10px 10px #444;
+  transition: .2s ease all;
+  color: var(--azul);
+  background-color: var(--azulLilas);
+  opacity: 75%;
+}
+
+.cartao__botao--start {
+    border-color: white;
+}
+
+.cartao__botao--ultra {
+    border-color: white;
+}
+
+.cartao__botao--mega {
+    border-color: white;
+}
+
